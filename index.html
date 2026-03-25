@@ -1,61 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>🌤️ Weather App</h1>
-    <div class="search-container">
-      <input type="text" id="city-input" placeholder="Enter city name...">
-      <button id="search-btn">Search</button>
-    </div>
-  </header>
-
-  <nav>
-    <button class="tab active" data-tab="weather">Current Weather</button>
-    <button class="tab" data-tab="air">Air Quality</button>
-    <button class="tab" data-tab="alerts">Weather Alerts</button>
-  </nav>
-
-  <main>
-    <section id="weather" class="tab-content active">
-      <h2>Current Weather</h2>
-      <div class="weather-container">
-        <div class="weather-info">
-          <p id="city"></p>
-          <p id="temperature"></p>
-          <p id="condition"></p>
-          <p id="humidity"></p>
-          <p id="wind-speed"></p>
-        </div>
-        <div class="weather-icon">
-          <img id="weather-icon" src="" alt="">
-        </div>
-      </div>
-    </section>
-
-    <section id="air" class="tab-content">
-      <h2>Air Quality</h2>
-      <div class="air-quality-info">
-        <p id="air-quality-index"></p>
-        <p id="air-quality-description"></p>
-      </div>
-    </section>
-
-    <section id="alerts" class="tab-content">
-      <h2>Weather Alerts</h2>
-      <div id="weather-alerts-container" class="weather-alerts-container"></div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Weather App Project | Built with HTML, CSS, JS</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myapp</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
