@@ -1,0 +1,126 @@
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    background-color: cadetblue;
+    height: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(114, 114, 163);
+    text-decoration: underline;
+}
+li:hover{
+    background-color: white;
+    padding: 10px;
+}
+
+#intro{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    color: white;
+    height: 50vh;
+}
+#intro a{
+    color: black;
+    padding: 5px 20px;
+    display: inline-block;
+    background-color: yellow;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#intro a:hover{
+    background-color: rgba(255, 255, 0, 0.726);
+}
+
+#intro h1{
+    font-size: 3.5em;
+    margin: 0px;
+}
+
+#about{
+    box-shadow: 5px 5px 20px rgb(216, 216, 216);
+    padding: 10px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills{
+    box-shadow: 5px 5px 20px rgba(201, 194, 194, 0.911);
+    padding: 10px;
+}
+
+.skill-bar{
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.726);
+    border-radius: 10px;
+    
+}
+.html{
+    height: inherit;
+    background-color: rgb(11, 246, 54);
+    width: 80%;
+}
+
+.css{
+    height: 10px;
+    background-color: rgb(233, 215, 13);
+    width: 60%;
+}
+
+.python{
+    height: 10px;
+    background-color: rgb(7, 244, 23);
+    width: 85%;
+}
+
+.java{
+    height: 10px;
+    background-color: yellow;
+    width: 70%;
+}
+
+#Contacts a{
+    color: white;
+    padding: 5px 20px;
+    display: inline-block;
+    background-color: purple;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#Contacts{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    height: 50vh;
+}
+.nav-color{
+    background-color: rgb(244, 8, 47) !important;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
